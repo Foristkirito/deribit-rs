@@ -20,7 +20,7 @@ pub struct UserOrdersData {
     pub is_liquidation: bool,
     pub label: String,
     pub last_update_timestamp: u64,
-    pub max_show: f64,
+    pub max_show: Option<f64>,
     pub order_id: String,
     pub order_state: OrderState,
     pub order_type: OrderType,
