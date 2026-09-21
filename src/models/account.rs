@@ -49,7 +49,7 @@ pub enum GetPositionsResponse {
         initial_margin: f64,
         instrument_name: String,
         interest_value: Option<f64>,
-        leverage: i64,
+        leverage: f64,
         maintenance_margin: f64,
         mark_price: f64,
         open_orders_margin: f64,
